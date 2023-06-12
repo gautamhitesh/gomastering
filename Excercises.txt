@@ -1,0 +1,35 @@
+E1.go: Write a constant generator iota for the powers of number 4.
+constant(
+    pow1 = 1 << (2*iota)
+)
+
+
+E2.go: Write a constant generator iota for the days of the week.
+
+
+E3.go: Write a Go program that converts an existing array into a map.
+
+E4.go: Write your own version of parseTime.go. Do not forget to test your program.
+E5.go: Can you create a version of timeDate.go that can process two date and time
+formats?
+E6.go: Write your own version of parseDate.go.
+
+
+E7.go:Try to write a Go program that prints the invalid part or parts of an IPv4 address
+E8.go:Describe the differences between make and new without looking at the chapter
+E9.go:Describe the differences between a character, a byte, and a rune
+E10.go:Using the code of findIPv4.go, write a Go program that prints the most
+popular IPv4 addresses found in a log file without processing the output with
+any Unix utilities
+E11.go:Develop a Go program that finds the IPv4 addresses in a log file that generated a
+404 HTML error message
+E12.go:Using the math/big standard Go package, write a Go program that calculates
+square roots with high precision. Choose the algorithm on your own
+E13.go:Write a Go utility that finds a given date and time format in its input and returns
+just the time part of it
+E14.go:Develop a Go utility that uses a regular expression in order to match integers
+from 200 to 400
+E15.go:Try to improve keyValue.go by adding logging to it
+E16.go:Modify the findIP() function of the findIPv4.go utility so that the regular
+expression is compiled only once and not every time the findIP() function is
+called
